@@ -61,6 +61,15 @@ figure{
     box-sizing: content-box;
 }
 
+.table-playerlist{
+    border-radius: 15px 15px 15px 15px;
+    overflow: hidden;
+    /* margin: 25px 0; */
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+
+}
+
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
 No media query since this is the default in Bootstrap
