@@ -79,12 +79,13 @@ figure{
     width: 100%;
     height: 27rem;
     object-fit: none;
-    filter: blur(7px) brightness(80%);
-    -webkit-filter: blur(7px) brightness(80%); 
+
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    transform: scale(1.1);
+    transform: scale(1.2);
+    filter: blur(7px) brightness(80%);
+    -webkit-filter: blur(7px) brightness(80%); 
 }
 .carousel-caption{
     position: absolute;
@@ -111,9 +112,15 @@ figure{
 }
 .header h5{
     font-size: 1rem;
-    font-weight: 200;
-    color: grey;
+    font-weight: 250;
+    color: #A9A9A9;
 }
+
+table{
+    text-align: center;
+}
+
+
 
 /* 
 Extra small (xs) devices (portrait phones, less than 576px)
