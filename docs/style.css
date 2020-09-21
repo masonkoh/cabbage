@@ -120,12 +120,20 @@ table{
     text-align: center;
 }
 
+#tryout-info{
+    display: inline!important;
+}
+
 .dev-info{
     background-color: black;
     color: white;
     /* text-shadow: 1px 1px 10px #000000; */
     margin-bottom: 0%;
     padding-bottom: 0%;
+}
+
+.rule-small-header{
+    color: #A9A9A9;
 }
 
 
