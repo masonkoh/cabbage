@@ -9,6 +9,10 @@
 
 /* Firefox Bug Fix */
 
+.navbar-toggler{
+
+}
+
 .carousel-item {
     transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
@@ -53,7 +57,7 @@ figure {
 /* Bootstrap Padding Fix */
 
 [class*="col"] {
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .content-table-notes {}
