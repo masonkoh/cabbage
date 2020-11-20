@@ -1,13 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700');
 /* Media Queries */
 
-@media (max-width: 992px) {}
-
-@media (max-width: 768px) {}
-
-@media (max-width: 576px) {}
-
 /* Firefox Bug Fix */
+body{
+    font-family: 'Roboto', sans-serif;
+}
 
 .navbar-toggler{
 
@@ -82,7 +79,7 @@ figure {
 
 .carousel-inner img {
     width: 100%;
-    height: 27rem;
+    height: 25rem;
     object-fit: none;
     background-position: center;
     background-size: cover;
@@ -96,17 +93,29 @@ figure {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    text-shadow: 1px 1px 10px #000000;
+    text-shadow: 1px 1px 10px #000000;   
+}
+.carousel-caption-friendlymatch{
+    top: 35%;
 }
 
 .carousel-caption h1 {
     font-size: 3.5rem;
     font-weight: 600;
 }
-
+.carousel-caption h2 {
+    font-size: 2.46rem;
+    font-weight: 600;
+}
 .carousel-caption h3 {
     font-size: 100%;
     font-weight: 600;
+}
+.carousel-caption-friendlymatch-h3-temp{
+    margin-bottom: 3rem;
+}
+h2.display-2{
+    margin: 0 0 0 8;
 }
 
 .header h1 {
@@ -176,3 +185,22 @@ Large (lg) devices (desktops, 992px and up)
 Extra (xl) large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {...}
 */
+
+
+
+@media all and (max-width: 992px) {}
+
+@media all and (max-width: 768px) {
+}
+
+@media all and (max-width: 576px) {
+
+}
+@media all and (max-width: 462px){
+    .carousel-caption-club {
+        top: 43%;
+    }
+    .carousel-caption-friendlymatch{
+        top: 35%;
+    }
+}
